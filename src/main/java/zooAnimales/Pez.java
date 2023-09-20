@@ -21,11 +21,11 @@ public class Pez extends Animal {
 		
 	}
 	
-	public void setListado(arrayList<Pez> listado) {
+	public void setListado(ArrayList<Pez> listado) {
 		this.listado = listado;
 	}
 
-	public arrayList<Pez> getListado() {
+	public ArrayList<Pez> getListado() {
 		return listado;
 	}
 	

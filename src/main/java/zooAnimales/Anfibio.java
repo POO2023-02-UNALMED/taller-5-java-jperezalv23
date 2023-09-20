@@ -18,11 +18,11 @@ public class Anfibio extends Animal{
 		Anfibio.listado.add(this);
 	}
 	
-	public void setListado(arrayList<Anfibio> listado) {
+	public void setListado(ArrayList<Anfibio> listado) {
 		this.listado = listado;
 	}
 
-	public arrayList<Anfibio> getListado() {
+	public ArrayList<Anfibio> getListado() {
 		return listado;
 	}
 	

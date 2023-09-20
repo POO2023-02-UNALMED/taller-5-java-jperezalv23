@@ -19,11 +19,11 @@ public class Ave extends Animal{
 		
 	}
 	
-	public void setListado(arrayList<Ave> listado) {
+	public void setListado(ArrayList<Ave> listado) {
 		this.listado = listado;
 	}
 
-	public arrayList<Ave> getListado() {
+	public ArrayList<Ave> getListado() {
 		return listado;
 	}
 	
