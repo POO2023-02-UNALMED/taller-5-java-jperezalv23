@@ -1,7 +1,7 @@
 package zooAnimales;
 
 public class Reptil extends Animal {
-	private Reptil[] listado;
+	private arrayList<Reptil> listado;
 	int iguanas;
 	int serpientes;
 	private String colorEscamas;
@@ -11,11 +11,18 @@ public class Reptil extends Animal {
 		super(nombre, edad, habitat, genero);
 		this.colorEscamas = colorEscamas;
 		this.largoCola = largoCola;
+		Reptil.listado.add(this);
 		
 	}
 	
 	public Reptil() {
+		super();
+		Reptil.listado.add(this);
 		
+	}
+	
+	public void setListado(arrayList<Repttil> listado) {
+		this.listado = listado;
 	}
 	
 	public void setListado(Reptil[] listado) {
@@ -34,7 +41,7 @@ public class Reptil extends Animal {
 		return largoCola;
 	}
 	
-	public Reptil[] getListado() {
+	public arrayList<Repttil> getListado() {
 		return listado;
 	}
 	
@@ -42,4 +49,29 @@ public class Reptil extends Animal {
 		return colorEscamas;
 	}
 	
+	public String movimiento() {
+		return "reptar";
+	}
+	
+	public static Reptil crearIguana(String nombre, int edad, String genero) {
+		Reptil iguana = new Reptil(nombre, edad, "humedal", genero, "verde", 3);
+		Reptil.iguanas++;
+		return iguana;
+	}
+	
+	public static Reptil crearSerpiente(String nombre, int edad, String genero) {
+		Reptil serpiente = new Reptil(nombre, edad, "jungla", genero, "blanco", 1);
+		Reptil.iguanas++;
+		return serpiente;
+	}
+	
+	public static int cantidadReptiles() {
+		return listado.size();
+	}
 }
+
+
+
+
+
+
