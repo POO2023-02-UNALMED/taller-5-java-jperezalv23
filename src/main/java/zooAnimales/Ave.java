@@ -20,11 +20,11 @@ public class Ave extends Animal{
 	}
 	
 	public void setListado(ArrayList<Ave> listado) {
-		this.listado = listado;
+		Ave.listado = listado;
 	}
 
 	public ArrayList<Ave> getListado() {
-		return listado;
+		return Ave.listado;
 	}
 	
 	public void setColorPlumas(String colorPlumas) {
