@@ -23,12 +23,9 @@ public class Reptil extends Animal {
 	}
 	
 	public void setListado(ArrayList<Reptil> listado) {
-		this.listado = listado;
+		Reptil.listado = listado;
 	}
 	
-	public void setListado(Reptil[] listado) {
-		this.listado = listado;
-	}
 	
 	public void setColorEscamas(String colorEscamas) {
 		this.colorEscamas = colorEscamas;
