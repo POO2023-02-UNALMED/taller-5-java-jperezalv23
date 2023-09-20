@@ -1,7 +1,7 @@
 package zooAnimales;
 
 public class Anfibio extends Animal{
-	private ArrayList<Anfibio> listado;
+	private static ArrayList<Anfibio> listado;
 	int ranas;
 	int salamandras;
 	String colorPiel;

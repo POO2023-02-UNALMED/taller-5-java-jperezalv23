@@ -1,7 +1,7 @@
 package zooAnimales;
 
 public class Reptil extends Animal {
-	private ArrayList<Reptil> listado;
+	private static ArrayList<Reptil> listado;
 	int iguanas;
 	int serpientes;
 	private String colorEscamas;

@@ -1,7 +1,7 @@
 package zooAnimales;
 
 public class Ave extends Animal{
-	private ArrayList<Ave> listado;
+	private static ArrayList<Ave> listado;
 	int halcones;
 	int aguilas;
 	private String colorPlumas;
