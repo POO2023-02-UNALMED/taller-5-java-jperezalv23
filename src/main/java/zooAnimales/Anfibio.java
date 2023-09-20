@@ -1,6 +1,5 @@
 package zooAnimales;
-import java.util.Arraylist;
-
+import java.util.ArrayList;
 public class Anfibio extends Animal{
 	private static ArrayList<Anfibio> listado;
 	public static int ranas;
