@@ -36,6 +36,22 @@ public class Ave extends Animal{
 		return colorPlumas;
 	}
 	
+	public static int getAguilas() {
+		return aguilas;
+	}
+	
+	public static int getHalcones() {
+		return halcones;
+	}
+	
+	public static void setAguilas(int aguilas) {
+		Ave.aguilas = aguilas;
+	}
+	
+	public static void setHalcones(int halcones) {
+		Ave.halcones = halcones;
+	}
+	
 	public String movimiento() {
 		return "volar";
 	}
