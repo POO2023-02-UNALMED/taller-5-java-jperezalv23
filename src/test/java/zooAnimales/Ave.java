@@ -11,4 +11,26 @@ public class Ave extends Animal{
 		this.colorPlumas = colorPlumas;
 		
 	}
+	
+	public Ave() {
+		
+	}
+	
+	public void setListado(Ave[] listado) {
+		this.listado = listado;
+	}
+	
+	public void setColorPlumas(String colorPlumas) {
+		this.colorPlumas = colorPlumas;
+	}
+	
+	public Ave[] getListado() {
+		return listado;
+	}
+	
+	public String getColorPlumas() {
+		return colorPlumas;
+	}
+	
+	
 }

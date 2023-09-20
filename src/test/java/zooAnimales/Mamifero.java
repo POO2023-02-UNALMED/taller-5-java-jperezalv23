@@ -13,4 +13,33 @@ public class Mamifero extends Animal{
 		this.patas = patas;
 		
 	}
+	
+	public Mamifero() {
+		
+	}
+	
+	public Mamifero[] getListado() {
+		return listado;
+	}
+	
+	public int getPatas() {
+		return patas;
+	}
+	
+	public boolean getPelaje() {
+		return pelaje;
+	}
+	
+	public void setListado(Mamifero[] listado) {
+		this.listado = listado;
+	}
+	
+	public void setPelaje(boolean pelaje) {
+		this.pelaje = pelaje;
+	}
+	
+	public void setPatas(int patas) {
+		this.patas = patas;
+	}
+	
 }
