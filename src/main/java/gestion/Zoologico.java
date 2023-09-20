@@ -23,7 +23,7 @@ public class Zoologico {
 		return ubicacion;
 	}
 	
-	public ArrayList<Zona> getZonas() {
+	public ArrayList<Zona> getZona() {
 		return zonas;
 	}
 	
