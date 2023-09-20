@@ -45,7 +45,7 @@ public class Zoologico {
 	
 	
 	public int cantidadTotalAnimales() {
-		cont = 0;
+		int cont = 0;
 		for (int i = 0; i < zonas.size(); i++) {
 			Zona temporal = zonas.get(i);
 			cont += temporal.cantidadAnimales();
